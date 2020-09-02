@@ -195,6 +195,21 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="btnDigitoCinco" destination="Wfu-Ya-NhE" id="eIA-dy-1Yv"/>
+                        <outlet property="btnDigitoDivisor" destination="N3H-Dm-yBa" id="dym-pN-VW4"/>
+                        <outlet property="btnDigitoDois" destination="1vM-Sx-peq" id="TE1-RU-T6e"/>
+                        <outlet property="btnDigitoIgual" destination="5N0-5O-Ogd" id="Cq2-63-HCO"/>
+                        <outlet property="btnDigitoMais" destination="j9K-mU-tGU" id="Xem-2I-NpI"/>
+                        <outlet property="btnDigitoMenos" destination="GtG-X4-cIn" id="mTc-YY-82F"/>
+                        <outlet property="btnDigitoMultiplicacao" destination="yo4-9h-5VD" id="ePI-C4-1R7"/>
+                        <outlet property="btnDigitoNove" destination="a8w-q1-v1t" id="6ac-rq-3GP"/>
+                        <outlet property="btnDigitoOito" destination="qju-Pp-CbC" id="CPf-RY-dqe"/>
+                        <outlet property="btnDigitoQuatro" destination="27w-Ad-4lP" id="w8G-qe-fFa"/>
+                        <outlet property="btnDigitoSeis" destination="Jmu-n7-vgo" id="Tja-2H-vWY"/>
+                        <outlet property="btnDigitoSete" destination="7WM-mc-nud" id="70S-PP-Bnf"/>
+                        <outlet property="btnDigitoTres" destination="IVv-2C-c4Q" id="MBI-2O-ZnZ"/>
+                        <outlet property="btnDigitoUm" destination="CRI-hW-PCw" id="n6z-En-TyB"/>
+                        <outlet property="btnDigitoZero" destination="SfI-Qg-XrP" id="CAi-Pg-Iyk"/>
                         <outlet property="txtResultado" destination="fZo-2P-4oV" id="9yw-c7-wYn"/>
                     </connections>
                 </viewController>

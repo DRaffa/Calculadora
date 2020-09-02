@@ -10,6 +10,23 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var btnDigitoNove: UIButton!
+    @IBOutlet weak var btnDigitoOito: UIButton!
+    @IBOutlet weak var btnDigitoSete: UIButton!
+    @IBOutlet weak var btnDigitoSeis: UIButton!
+    @IBOutlet weak var btnDigitoCinco: UIButton!
+    @IBOutlet weak var btnDigitoQuatro: UIButton!
+    @IBOutlet weak var btnDigitoTres: UIButton!
+    @IBOutlet weak var btnDigitoDois: UIButton!
+    @IBOutlet weak var btnDigitoUm: UIButton!
+    @IBOutlet weak var btnDigitoZero: UIButton!
+    
+    @IBOutlet weak var btnDigitoDivisor: UIButton!
+    @IBOutlet weak var btnDigitoMultiplicacao: UIButton!
+    @IBOutlet weak var btnDigitoMenos: UIButton!
+    @IBOutlet weak var btnDigitoMais: UIButton!
+    @IBOutlet weak var btnDigitoIgual: UIButton!
+    
     @IBOutlet weak var txtResultado: UITextField!
     var valorAntecessor: Double = 0
     var operacao: String = ""
@@ -17,7 +34,23 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        txtResultado.text = "0"        
+        txtResultado.text = "0"
+        btnDigitoNove.layer.cornerRadius = 10
+        btnDigitoOito.layer.cornerRadius = 10
+        btnDigitoSete.layer.cornerRadius = 10
+        btnDigitoSeis.layer.cornerRadius = 10
+        btnDigitoCinco.layer.cornerRadius = 10
+        btnDigitoQuatro.layer.cornerRadius = 10
+        btnDigitoTres.layer.cornerRadius = 10
+        btnDigitoDois.layer.cornerRadius = 10
+        btnDigitoUm.layer.cornerRadius = 10
+        btnDigitoZero.layer.cornerRadius = 10
+        
+        btnDigitoDivisor.layer.cornerRadius = 10
+        btnDigitoMultiplicacao.layer.cornerRadius = 10
+        btnDigitoMenos.layer.cornerRadius = 10
+        btnDigitoMais.layer.cornerRadius = 10
+        btnDigitoIgual.layer.cornerRadius = 10
     }
     
     @IBAction func btnZero(_ sender: Any) {
@@ -25,7 +58,7 @@ class ViewController: UIViewController {
     }
     
     
-    @IBAction func btnUm(_ sender: Any) {
+    @IBAction func btnUm(_ sender: UIButton) {
        concatenarNumero(valor: "1")
     }
     
